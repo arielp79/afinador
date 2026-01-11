@@ -111,3 +111,7 @@ if (Math.abs(diff) < 1) {
 } else {
     notaTexto.style.color = "white";
 }
+
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('./sw.js');
+}

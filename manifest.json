@@ -1,7 +1,8 @@
 {
   "name": "Afinador Clean Pro",
   "short_name": "Afinador",
-  "start_url": "index.html",
+  "description": "Afinador de guitarra sin publicidad",
+  "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#121212",
   "theme_color": "#00ffcc",
@@ -9,7 +10,8 @@
     {
       "src": "https://cdn-icons-png.flaticon.com/512/3063/3063623.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ]
 }
